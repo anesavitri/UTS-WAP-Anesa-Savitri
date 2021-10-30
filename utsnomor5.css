@@ -1,0 +1,83 @@
+.card {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(121, 121, 121);
+    background-image: url("fixbg.jpeg");
+  }
+  
+  .card img{
+  
+  
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b8438b;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 5%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a{
+    display: inline-block;
+    color:#000000;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity:0.9;
+    background-color: #f5bada;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}

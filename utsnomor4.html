@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script>
+        .function insert(num){
+    document.forms.hasil.value = document.forms.hasil.value+num;
+}
+
+    .function equal() {
+    const exp = document.forms.hasil.value;
+    if (exp) {
+        document.form.hasil.value = eval(exp)
+        
+    }
+}
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form name="form">
+            <input class="hasil" name="hasil">
+        </form>
+            <tr>
+                <td><input type="button" class="button" value="C" onclick="clean()"></td>
+                <td><input type="button" class="button" value="/" onclick="insert('/')"></td>
+                <td><input type="button" class="button" value="x" onclick="insert('*')"></td>
+                <td><input type="button" class="button" value="-" onclick="insert('-')"></td>
+                <td><input type="button" class="button" value="+" onclick="insert('+')"></td>
+                <td><input type="button" class="button" value="=" onclick="equal('/')"></td>
+
+            </tr>
+    </div>
+    
+</body>
+</html>
